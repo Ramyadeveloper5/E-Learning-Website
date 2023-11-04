@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .loginform .formbox{
+    width: 1000px;
+    height: 700px;
+    /* box-sizing: content-box; */
+    /* padding-left: 550px; */
+    /* margin-top: 100px; */
+/* }  */
+
+/* .headertab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("D:/Ramya/WebsiteMakingProject/E Learning Website/Code/Images/2.jpg") no-repeat ;
+    background-size: cover;
+    background-position: center;
+    /* padding: 1px; */
+    /* height:fit-content; */
+    
+/* }  */
+
+headertab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: url("D:/Ramya/WebsiteMakingProject/E Learning Website/Code/Images/2.jpg") no-repeat ; */
+    background-size: cover;
+    background-position: center;
+    /* padding: 1px; */
+    height:fit-content;
+    
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    padding: 1px 20px;
+    /* background-color: rgb(14, 102, 233);  */
+    background-color: #0C356A;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    border: 2px solid rgb(104, 195, 223);
+    border-radius: 5px;
+    margin-top: 1px;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+.navigation .buttonstart{
+    border: 2px solid rgb(233, 228, 228);
+    width: 90px;
+    height: 30px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 10px;
+    outline: none;
+    color: azure;
+    font-weight: 500;
+    margin-left: 50px;
+    transition: .5s;
+
+}
+
+.navigation .buttonstart:hover{
+    background-color: rgb(9, 95, 170);
+
+}
+
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: white;
+    transform-origin: right;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.mainpage{
+    width: 100%;
+    height: 650px;
+    background-color: whitesmoke;
+    box-sizing: content-box;
+    position: fixed;
+    /* background-image: url("https://img.freepik.com/premium-photo/digital-tablet-hands-young-female-student-educational-website-going-sign-further-information_274679-5892.jpg?size=626&ext=jpg&ga=GA1.1.526107354.1698323711&semt=ais"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page1{
+    margin-top: 100px;
+    margin-left: 160px;
+    width: 1000px;
+    height: 500px;
+    background-color: whitesmoke;
+    /* border: 5px solid #0174BE;
+    border-style:groove;
+    border-radius: 22px; */
+    position: fixed;
+}
+
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    right: 0;
+    margin: 105px;
+    max-width: 450px;
+    padding: 80px;
+    /* background-color: rgb(81, 181, 206); */
+    /* background-color:blue; */
+    background-color: #0C356A;
+    margin-right: 210px;
+    height: 490px;
+    border-style: none;
+    border: 1px;
+    border-radius: 20px;
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 2px 0 20px 0;
+    border-style:double;
+    border: 3px;
+    background: #f1f1f1;
+    border-radius: 20px;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    /* /* background-color: #0497aa; */
+    background-color:#FFC436;
+    color: #0C356A;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .btn:hover {
+    opacity: 1;
+  }
+
+
+
+.btn2{
+    text-align: justify;
+    margin-top: 20px;
+    color:whitesmoke;
+
+}
+
+.btn2:hover{
+    color: skyblue;
+    /* color:whitesmoke; */
+}
+  
+  
+
